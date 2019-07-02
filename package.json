@@ -1,0 +1,19 @@
+{
+  "name": "cursorxjs",
+  "version": "0.1.0",
+  "description": "Curso de uso de RxJS con vanilla Javascript",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --open --mode=development"
+  },
+  "author": "Antonio Aguilar Herrera",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
