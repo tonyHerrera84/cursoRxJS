@@ -5,6 +5,7 @@ import { example3 } from './range-of';
 import { example4 } from './interval-timer';
 import { example5 } from './from-event';
 import { example6 } from './map-mapto-filter';
+import { example7 } from './tap';
 
 //run stuff
 example();
@@ -13,3 +14,4 @@ example3();
 example4();
 example5();
 example6();
+example7();
