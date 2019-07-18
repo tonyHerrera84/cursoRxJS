@@ -19,7 +19,8 @@ export function example8() {
         ]),
         // first(),
         // take(3),
-        takeWhile(val => val[0] > 3)
+        // takeWhile(val => val[0] > 3),
+        takeWhile(([col, row]) => col > 3)
     );
     const subscription = clicks.subscribe(evt => {
         displayLog(evt)
